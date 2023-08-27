@@ -20,7 +20,7 @@ export function Player() {
 
   useEffect(() => {
     if (currentLesson) {
-      document.title = `Assistindo: ${currentLesson.title}`;
+      document.title = `Watching: ${currentLesson.title}`;
     }
   }, [currentLesson]);
 
@@ -31,7 +31,7 @@ export function Player() {
           <Header />
           <button className="flex items-center gap-2 rounded bg-violet-500 px-3 py-2 text-sm font-medium text-white hover:bg-violet-600">
             <MessageCircle className="w-4 h-4" />
-            Deixar feedback
+            Leave feedback
           </button>
         </div>
         <main className="relative flex overflow-hidden rounded-lg border border-zinc-800 bg-zinc-900 shadow pr-80">

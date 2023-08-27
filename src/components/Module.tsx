@@ -27,7 +27,7 @@ export function Module({ moduleIndex, title, amountOfLessons }: ModuleProps) {
         </div>
         <div className="flex flex-col gap-1 text-left">
           <strong className="text-sm">{title}</strong>
-          <span className="text-xs text-zinc-400">{amountOfLessons} aulas</span>
+          <span className="text-xs text-zinc-400">{amountOfLessons} lessons</span>
         </div>
         <ChevronDown className="w-5 h-5 ml-auto text-zinc-400 group-data-[state=open]:rotate-180 transition-transform" />
       </Collapsible.Trigger>
