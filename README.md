@@ -14,7 +14,7 @@ The **React/Redux** is a web application with a YouTube video player that simula
 
 The application was built using Redux, Vite, Typescript, and Tailwind. The purpose of this project was to test and put to the test the knowledge acquired about Redux, making applications with context simpler to create and maintain. The application also includes complete **STORE** typing as well as testing.
 
-<div align="center" >
+<div align="center" > 
 <b>Application</b>
 </div>
 
